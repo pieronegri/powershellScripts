@@ -1,9 +1,6 @@
-﻿<#
-.SYNOPSIS
-This script copies secrets from one Azure Key Vault to another.
 <#
 .SYNOPSIS
-This script copies secrets from one Azure Key Vault to another.
+This script copies secrets from one Azure Key Vault to another. Credits to pages /individuals mentioned in the Link section
 
 .DESCRIPTION
 The script connects to Azure and retrieves the secrets from the source Key Vault. 
