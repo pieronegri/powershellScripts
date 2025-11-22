@@ -1,0 +1,13 @@
+Rename-Computer -NewName "230070" -Restart
+New-NetFirewallRule -DisplayName "Allow inbound ICMPv4 (Private LAN)" `
+    -Direction Inbound `
+    -Protocol ICMPv4 `
+    -IcmpType 8 `
+    -Profile Public `
+    -Action Allow
+New-NetFirewallRule -DisplayName "Allow inbound ICMPv4 (Private LAN)" `
+    -Direction Inbound `
+    -Protocol ICMPv4 `
+    -IcmpType 8 `
+    -Profile Private `
+    -Action Allow
