@@ -1,4 +1,6 @@
 <# comment on the 2025-12-05
+modifica da dev VA
+nuova modifica
 .SYNOPSIS
 This script copies secrets from one Azure Key Vault to another. Credits to pages /individuals mentioned in the Link section
 
