@@ -1,4 +1,4 @@
-<#
+<# comment on the 2025-12-05
 .SYNOPSIS
 This script copies secrets from one Azure Key Vault to another. Credits to pages /individuals mentioned in the Link section
 
